@@ -1,0 +1,11 @@
+algorithm,experiment,class_1,class_2,feature_1,feature_2,accuracy,tn,fp,fn,tp,training_detail
+Perceptron,1,Adelie,Gentoo,CulmenLength,FlipperLength,0.975,19,1,0,20,last_epoch_errors=0
+Perceptron,2,Adelie,Chinstrap,CulmenLength,CulmenDepth,1.0,20,0,0,20,last_epoch_errors=0
+Perceptron,3,Chinstrap,Gentoo,CulmenDepth,BodyMass,1.0,20,0,0,20,last_epoch_errors=0
+Perceptron,4,Adelie,Gentoo,CulmenDepth,BodyMass,0.975,20,0,1,19,last_epoch_errors=0
+Perceptron,5,Adelie,Chinstrap,FlipperLength,BodyMass,0.7,16,4,8,12,last_epoch_errors=16
+ADALINE,1,Adelie,Gentoo,CulmenLength,FlipperLength,0.975,19,1,0,20,final_mse=0.22677
+ADALINE,2,Adelie,Chinstrap,CulmenLength,CulmenDepth,0.975,20,0,1,19,final_mse=0.35929
+ADALINE,3,Chinstrap,Gentoo,CulmenDepth,BodyMass,1.0,20,0,0,20,final_mse=0.13202
+ADALINE,4,Adelie,Gentoo,CulmenDepth,BodyMass,0.975,20,0,1,19,final_mse=0.10650
+ADALINE,5,Adelie,Chinstrap,FlipperLength,BodyMass,0.6,13,7,9,11,final_mse=0.67175
